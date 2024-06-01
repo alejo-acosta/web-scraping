@@ -55,7 +55,19 @@
 \begin{document}
 \maketitle
 
-\section{Introducción}
+
+\begin{frame}
+	\frametitle{Material}
+	\begin{alertblock}{ }
+		\centering
+		\textbf{El material de este taller está disponible en:} \\ \url{https://github.com/alejo-acosta/web-scraping}
+	\end{alertblock}
+	\centering
+	Pueden descargar el material en la pestaña de código y luego en "Download ZIP".  \\
+	O pueden clonar el repositorio con el siguiente comando: \\
+	\texttt{git clone https://github.com/alejo-acosta/web-scraping }
+
+\end{frame}
 
 \begin{frame}
 	\frametitle{Expectativas}
@@ -64,17 +76,16 @@
 		\textbf{¿Qué esperas aprender en este taller?}
 	\end{alertblock}
 	\centering
-	Escríbanlo en el siguiente \href{https://jamboard.google.com/d/19WqnJKwaRLCvGGu4GEPRmnxqqNuRQeV6afe8qo44bLQ/edit?usp=sharing}{Jamboard}
+	Escríbanlo en el siguiente \href{https://miro.com/app/board/uXjVKA1HUxk=/?share_link_id=961163594502}{Link}
 
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{Teoría}
+	\frametitle{Agenda - Teoría}
 	\underline{\textbf{Conceptos}}
 	\begin{itemize}
 		\item ¿Qué es web scraping?
-		\item Introducción al web scraping y sus aplicaciones.
 		\item Problemas éticos, legales y mal uso del web scraping.
 		\item Alternativas al web scraping.
 		\item Herramientas y librerías necesarias.
@@ -90,10 +101,10 @@
 
 
 \begin{frame}
-	\frametitle{Práctica}
+	\frametitle{Agenda - Práctica}
 	\underline{\textbf{Nivel 1: data estructurada en HTML}}
 	\begin{itemize}
-		\item pandas
+		\item Pandas :)
 	\end{itemize}
 	
 	\underline{\textbf{Nivel 2: data semi-estructurada}}
@@ -103,117 +114,88 @@
 		\item Descarga de archivos.
 	\end{itemize}
 
-	\underline{\textbf{Nivel 3: data no estructurada que no usa HTML}}
+	\underline{\textbf{Nivel 3: data no estructurada y que no usa HTML}}
 	\begin{itemize}
-		\item HTML y CSS.
-		\item Inspección de elementos.
-		\item Extracción de datos con BeautifulSoup.
+		\item Automatización web con Selenium.
+		\item Extracción de información relevante.
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Algunos recursos importantes}
-		\begin{itemize}
-			\item Material del curso: \\
-			\small{\url{https://github.com/alejo-acosta/favorita-powerbi/}}
-			\item Descarga Power BI: \\
-			\small{\url{https://powerbi.microsoft.com/en-us/downloads/}}
-			\item Dataset original: \\
-			\small{\url{https://www.kaggle.com/c/favorita-grocery-sales-forecasting/}}
-			\item Documentación oficial de Power BI: \\
-			\small{\url{https://docs.microsoft.com/en-us/power-bi/}}
-			\item Lenguaje DAX (Power BI): \\
-			\small{\url{https://docs.microsoft.com/en-us/dax/}}
-			\item Lenguaje M (Power Query): \\
-			\small{\url{https://docs.microsoft.com/en-us/powerquery-m/}}
-		\end{itemize}
-\end{frame}
-
-\begin{frame}
-	\frametitle{¿Qué es Power BI?}
-	\begin{columns}
-		\begin{column}{0.4\textwidth}
-			\begin{itemize}
-				\item Power BI suele definirse como: Herramienta corporativa de autoservicio para hacer business intelligence.
-				\item BI son herramientas que nos permiten extraer, conectar y visualizar datos.
-			\end{itemize}
-
-		\end{column}
-		\begin{column}{0.6\textwidth}
-			\centering
-			\includegraphics[scale=0.4]{quadrant.png} \\
-			\tiny{\url{https://www.gartner.com/doc/reprints?id=1-24ZXJ0MU&ct=210107&st=sb}}
-		\end{column}
-	\end{columns}
-	
-\end{frame}
-
-\begin{frame}
-	\frametitle{¿Cuándo no usar Power BI?}
+	\frametitle{¿Qué es web scraping?}
 	\begin{alertblock}{ }
 		\centering
-		Power BI \textbf{no} es una herramienta de análisis o modelamiento de datos. \\
-		Python, R, Stata, julia, etc. tienen una ventaja enorme en este campo. \\
-		\textbf{El secreto es usar la herramienta adecuada para nuestro flujo de trabajo.}
+		Web scraping son técnicas que consisten en extraer información de sitios web. Estas técnicas pueden ser manuales o automatizadas.
 	\end{alertblock}
-	Por ejemplo:
-	\begin{table}[!ht]
-		\centering
-		\resizebox{\textwidth}{!}{\begin{tabular}{|l|l|l|l|l|}
-		\hline
-		\makecell{Extracción y \\ manipulación datos} & \makecell{Análisis \\ Exploratorio} & \makecell{Gráficos y \\ reportes} & \makecell{Análisis \\  Estadístico} & Modelos \\ \hline
-			\makecell{1.Python \\ 2.Excel \\ 3.Power BI \\ 4.Stata} & \makecell{1.Python \\ 2.Power BI \\ 3.Excel \\ 4.Stata} & \makecell{1.Python \\ 2.Power BI \\ 3.Excel} & \makecell{1.Python \\ 2.Stata} & \makecell{1.Stata \\ 2.R \\ 3.Python} \\ \hline
-		\end{tabular}}
-	\end{table}
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Los lenguajes de Power BI}
+	
+	
 	\begin{itemize}
-		\item Power BI (al igual que Excel) tiene su propio "lenguaje de programación" llamado DAX. \\
-		\includegraphics[scale=0.35]{excel.png} \\
-		\item Sin embargo, también se utiliza otro lenguaje para extraer, transformar y cargar datos (ETL): M que es usado en Power Query.
+		\item El problema es que los sitios web no están diseñados para ser leídos por máquinas, sino por humanos. Por lo tanto, debemos 'enseñar' a nuestra computadora a leer estos sitios web.  \\
+		\item Además, el internet puede ser muy ordenado o completamente caótico. Por lo tanto, debemos ser creativos y flexibles en la forma en que extraemos la información.
+		\item Normalmente el web scraping se puede resumir en 3 'proceso' \\
+		\begin{enumerate}
+			\item Parsing o análisis del código.
+			\item Automatización (bots).
+			\item Extracción de la información.
+		\end{enumerate}
 	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\begin{alertblock}{ }
+		\centering
+		Imaginémonos que vivimos dentro del internet, en la gran nación democrática y soberana de Weblandia.
+	\end{alertblock}
+	\centering
+	Así como en la vida real, Weblandia tiene bienes públicos y privados. \\
+	Normalmente, el web scraping se hace sobre 'bienes públicos'.  \\
+	\includegraphics[width=.2\linewidth]{wikipedia.jpg} \large{vs} 
+	\includegraphics[width=.2\linewidth]{netflix.png}  \\
+
+	Los bienes públicos son no excluyentes y no rivales. \\
+	¿Pero realmente es así en Weblandia o incluso en la vida real?
 
 \end{frame}
 
 \begin{frame}
-	\frametitle{Dataset}
-	\begin{itemize}
-		\item Utilizaremos las ventas de Corporación la Favorita.
-		\item Solo usaremos 1\% del total de la base. \\
-	\end{itemize}	
-	\small{\url{https://www.kaggle.com/c/favorita-grocery-sales-forecasting}}
+	\frametitle{Problemas éticos y legales}
+	\begin{alertblock}{ }
+		\centering
+		\textbf{¿Cuáles?}
+	\end{alertblock}
 	
 \end{frame}
 
+
 \begin{frame}
-	\centering
-	\frametitle<presentation>{Power BI}
-	\framesubtitle{Parte II}
-	En esta sesión revisaremos:
+	\frametitle{Ejemplos de uso del web scraping en la literatura}
 	\begin{itemize}
-		\item Refuerzo de tablas 'dimensiones' y modelo relacional de datos.
-		\item Datos long vs wide.
-		\item Métricas.
-		\item Merge y append.
-		\begin{itemize}
-			\item Funciones pivot y unpivot.
-		\end{itemize}
-		\item Series de tiempo descriptivas (no predictivas).
+		\item Cavallo, Alberto, and Roberto Rigobon. 2016. "The Billion Prices Project: Using Online Prices for Measurement and Research." \textit{Journal of Economic Perspectives, 30 (2): 151-78.}
+		\item Glaeser, Edward L., Hyunjin Kim, and Michael Luca. 2018. "Nowcasting Gentrification: Using Yelp Data to Quantify Neighborhood Change." \textit{AEA Papers and Proceedings, 108: 77-82.}
 	\end{itemize}
-  \end{frame}
+\end{frame}
 
-  \begin{frame}
-	\frametitle{Una pequeña motivación}
-	\centering
-	\includegraphics[scale=0.50]{learning-curve.png} \\
-  \end{frame}
-  
-  \begin{frame}
-	\centering
-	\includegraphics[scale=0.25]{learning_curve2.png} \\
-  \end{frame}
+\begin{frame}
+	\frametitle{Cuando no usar web scraping}
+	Hacer web scraping es lento, tedioso y muchas veces poco eficiente.
+	\begin{itemize}
+		\item Si la información está disponible en un formato estructurado (CSV, Excel, SQL, etc.).
+		\item Si la información está disponible a través de una API.
+		\item Si la información es sensible o privada.
+		\item Con fines maliciosos (spam, phishing, DDoS, brute force hacking).
+		\item Si nuestro proceso acapara todos los recursos del servidor.
+		\item Si se hace por 'moda'.
+	\end{itemize}
+	\begin{block}{Revisar:}
+		Foerderer, J. (2023). Should we trust web-scraped data?. \textit{arXiv preprint arXiv:2308.02231.}
+	\end{block}
+\end{frame}
 
-  \end{document}
+\begin{frame}
+	\begin{block}{}
+		\centering
+		\large{Manos a la obra, preparemos nuestro entorno de trabajo.}
+	\end{block}
+\end{frame}
+
+\end{document}

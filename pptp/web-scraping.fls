@@ -463,10 +463,10 @@ INPUT C:\Users\alejo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss12.tfm
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmssbx10.tfm
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
+INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
+INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
+INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
+INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt10.tfm
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -505,43 +505,38 @@ INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.p
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
+INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rmtt.enc
+INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
+INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
+INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
+INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
+INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
+INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
+INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
+INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss10.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmtt.fd
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt10.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr7.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr5.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi7.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi5.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy7.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy5.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rmtt.enc
-INPUT .\quadrant.png
-INPUT .\quadrant.png
-INPUT .\quadrant.png
-INPUT .\quadrant.png
-INPUT .\quadrant.png
-INPUT .\quadrant.png
-INPUT .\quadrant.png
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmtt8.tfm
+INPUT .\wikipedia.jpg
+INPUT .\wikipedia.jpg
+INPUT .\wikipedia.jpg
+INPUT .\wikipedia.jpg
+INPUT .\wikipedia.jpg
+INPUT .\wikipedia.jpg
+INPUT .\wikipedia.jpg
+INPUT .\netflix.png
+INPUT .\netflix.png
+INPUT .\netflix.png
+INPUT .\netflix.png
+INPUT .\netflix.png
+INPUT .\netflix.png
+INPUT .\netflix.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
@@ -550,13 +545,7 @@ INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.p
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT .\excel.png
-INPUT .\excel.png
-INPUT .\excel.png
-INPUT .\excel.png
-INPUT .\excel.png
-INPUT .\excel.png
-INPUT .\excel.png
+INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmsso10.tfm
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
@@ -565,29 +554,6 @@ INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.p
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmss9.tfm
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT .\learning-curve.png
-INPUT .\learning-curve.png
-INPUT .\learning-curve.png
-INPUT .\learning-curve.png
-INPUT .\learning-curve.png
-INPUT .\learning-curve.png
-INPUT .\learning-curve.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
-INPUT .\learning_curve2.png
-INPUT .\learning_curve2.png
-INPUT .\learning_curve2.png
-INPUT .\learning_curve2.png
-INPUT .\learning_curve2.png
-INPUT .\learning_curve2.png
-INPUT .\learning_curve2.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
 INPUT C:\Users\alejo\OneDrive - Universidad de Las Américas\Ico\economia-logo.png
@@ -604,11 +570,9 @@ INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss12.
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss12.pfb
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss8.pfb
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss8.pfb
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss9.pfb
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss9.pfb
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
+INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
+INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt8.pfb
-INPUT C:\Users\alejo\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt8.pfb
